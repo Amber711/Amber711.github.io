@@ -84,15 +84,15 @@
 
 
 
-<meta name="description" content="Go forth, learn well, and let these discoveries be secrets no more.">
+<meta name="description" content="I am off the base.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Amberoffduty">
 <meta property="og:url" content="http://amberoffduty.com/index.html">
 <meta property="og:site_name" content="Amberoffduty">
-<meta property="og:description" content="Go forth, learn well, and let these discoveries be secrets no more.">
+<meta property="og:description" content="I am off the base.">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Amberoffduty">
-<meta name="twitter:description" content="Go forth, learn well, and let these discoveries be secrets no more.">
+<meta name="twitter:description" content="I am off the base.">
 
 
 
@@ -229,6 +229,150 @@
           <div id="content" class="content">
             
   <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://amberoffduty.com/2016/12/21/React-learning-notes/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Amber Wei">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/uploads/me1.jpeg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Amberoffduty">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Amberoffduty" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/12/21/React-learning-notes/" itemprop="url">
+                  React Learning Notes
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-21T05:35:01+08:00">
+                2016-12-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <a href="/2016/12/21/React-learning-notes/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/12/21/React-learning-notes/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="ReactJS"><a href="#ReactJS" class="headerlink" title="ReactJS"></a>ReactJS</h1><p>本系列文主要用于记录一名front-end newbie 学习React的路程，主要包括一些基础要点的总结，和知识细节的分析。如果觉得过于面面俱到，那说明这篇文章已经配不上你的技术水平了，请绕路。</p>
+<p>1)</p>
+<p>React is the trend.</p>
+<p>什么是React的呢？学习React之前，要先试着理解它的定义。引用官网的介绍：”A JAVASCRIPT LIBRARY FOR BUILDING USER INTERFACES”。</p>
+<p>首先，React是一个js库(Library)，区别于框架(Framework)。框架但更重量级一些，通过创造一些需要你去遵守的规则和范例，为你提供一整套的解决方案。例如AngularJS,它就是一个框架，你在使用它的时候，需要按照它设计好的方式来写代码，因此你是受控于这个框架内的。 而库呢，可以简单的认为就是一些方法的集合(a collection of functionality)。 例如jQuery，当你需要它提供的一些方法时，你直接调用即可。那么，就是你在控制这个库。<br>什么意思呢？</p>
+<ul>
+<li>框架和库的区别最重要在于控制权是否掌握在开发者手中(Inversion of Control)。</li>
+<li>也就是说，库是由你去调用的，因此你控制它。但框架呢，控制权是反过来的，框架调用你。 (This is called the Hollywood Principle: Don’t call Us, We’ll call You.)<br><a href="http://stackoverflow.com/questions/3057526/framework-vs-toolkit-vs-library" target="_blank" rel="external">Reference from Stackoverflow</a></li>
+</ul>
+<p>其次，React是一个针对开发UI的库。它不具备完整的MVC架构，而只是其中的V层部分。它关心：</p>
+<ul>
+<li>监视View层DOM的变化，显示并且更新DOM</li>
+<li>相应事件</li>
+</ul>
+<p>它不关心：</p>
+<ul>
+<li>处理Ajax</li>
+<li>路由</li>
+<li>数据存储</li>
+</ul>
+<p>其设计理念十分简介，高效。之所以说高效，是因为它创建的是虚拟DOM(virtual DOM),而非直接操作DOM，运用高效的DOM Diff算法，最小化页面重绘。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
     
       
 
@@ -398,12 +542,12 @@
                src="/uploads/me1.jpeg"
                alt="Amber Wei" />
           <p class="site-author-name" itemprop="name">Amber Wei</p>
-          <p class="site-description motion-element" itemprop="description">Go forth, learn well, and let these discoveries be secrets no more.</p>
+          <p class="site-description motion-element" itemprop="description">I am off the base.</p>
         </div>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">1</span>
+              <span class="site-state-item-count">2</span>
               <span class="site-state-item-name">posts</span>
             </a>
           </div>
